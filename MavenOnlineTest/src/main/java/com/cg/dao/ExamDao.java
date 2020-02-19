@@ -11,7 +11,7 @@ import com.cg.exception.UserException;
 public interface ExamDao {
 	public Exam getTestId(int testId) throws ExamException;
 	public User getUserId(int userId) throws UserException;
-	public boolean addExamToStudent(ExamAssign eassign) throws ExamException;   //DECLARING FUNCTIONS
+	public boolean addExamToStudent(ExamAssign eassign) throws ExamException;   //DECLARING REQUIRED FUNCTIONS
 	public List<ExamAssign> viewAssignments();
 	public List<ExamAssign> getAssignment(String status);
 }

@@ -8,7 +8,7 @@ public class ExamAssign {
 	public ExamAssign(User user, Exam exam, int marks, String status) {
 		super();
 		this.user = user;
-		this.exam = exam;
+		this.exam = exam;                                  // Parameterized constructor
 		this.marks = marks;
 		this.status = status;
 	}
@@ -16,8 +16,8 @@ public class ExamAssign {
 		super();
 		this.user = user;
 		this.exam = exam;
-	}
-	public ExamAssign() {
+	}  
+	public ExamAssign() {                                // No Parameter Constructor
 		
 	}
 	public User getUser() {

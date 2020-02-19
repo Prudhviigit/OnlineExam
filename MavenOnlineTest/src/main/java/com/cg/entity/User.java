@@ -2,7 +2,7 @@ package com.cg.entity;
 
 public class User {
 	private int userId;
-	private String name;
+	private String name;                                      // Parameterized constructor
 	private  String password;
 	public User(int userId, String name, String password) {
 		super();
@@ -12,7 +12,7 @@ public class User {
 		this.password = password;
 	}
 	public User() {
-		
+		                                                     // No Parameter Constructor
 	}
 	public int getUserId() {
 		return userId;

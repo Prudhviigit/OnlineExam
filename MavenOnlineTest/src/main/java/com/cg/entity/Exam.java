@@ -6,12 +6,12 @@ public class Exam {
 	private int minutes;
 	public Exam(int testId, String examname,int minutes) {
 		super();
-		this.testId = testId;
+		this.testId = testId;                         // Parameterized constructor
 		this.examname = examname;
 		this.minutes= minutes;
 	}
 	
-	public Exam() {
+	public Exam() {    // No Parameter Constructor
 		super();
 	}
 

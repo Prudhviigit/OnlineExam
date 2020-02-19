@@ -15,6 +15,13 @@ public class ExamServiceImpl implements ExamService {
 	User user;
 	Exam exam ;
 	ExamDaoImpl dao = new ExamDaoImpl();
+	
+	/**
+	 * @author : Prudhvi
+	 * @Method : This method validates the testID and UserId. 
+	 * @param  : testId and UserId parameters are passed for validation purpose.
+	 * @return : It returns true if validations are successful.
+	 */
 	@Override
 	public boolean addTest(int userId, int testId) throws ExamException, UserIdException, TestIdException, UserException {
 	
